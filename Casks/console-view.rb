@@ -1,9 +1,9 @@
 cask "console-view" do
   arch arm: "Apple-Silicon", intel: "Intel"
 
-  version "1.0.0"
-  sha256 arm:   "6a66e000145f5e279b85d07b8c2aff512b49c8b26c2c9bd236c24cdeaeedfb4c",
-         intel: "1b7e45b474215a5202335bd168be7f4e360ecb12dda3b361ca62298d27363ed8"
+  version "1.0.1"
+  sha256 arm:   "39993639819d06ea5516a49ca62df3b2770c26a732c002a1c2f752298838790d",
+         intel: "49486aad20845117a0362ec1440bde50710839cb00ed0429e991936c08cfb531"
 
   url "https://github.com/smailkorchi/console-view/releases/download/v#{version}/Console-View-#{version}-#{arch}.dmg"
   name "Console View"
